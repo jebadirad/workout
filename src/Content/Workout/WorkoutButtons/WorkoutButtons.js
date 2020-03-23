@@ -9,6 +9,7 @@ const WorkoutButtons = (props) => {
       disabled={disabled}
       color="primary"
       variant="contained"
+      size="large"
       onClick={() => onStartButtonPressed()}
     >
       Start

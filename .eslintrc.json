@@ -1,0 +1,40 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+        "airbnb",
+        "airbnb/hooks",
+        "airbnb/whitespace",
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "semi": "error",
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/prop-types": "off",
+        "comma-dangle": [
+            "error",
+            "never"
+        ]
+    }
+}
